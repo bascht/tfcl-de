@@ -60,13 +60,13 @@ describe 'Think first, Code later' do
 
   it 'should help building good software' do
     while product.open_tickets?
-      Developer.should_receive :requirements
+      Developers.should_receive :requirements
 
-      Developer.think_about_problem! and Developer.talk_to_stakeholder!
+      Developers.think_about_problem! and Developers.talk_to_stakeholder!
 
-      Developer.write_tests
-      Developer.implement_features or Developer.refactor_code
-      Developer.release product.new_version
+      Developers.write_tests
+      Developers.implement_features or Developers.refactor_code
+      Developers.release product.new_version
     end
   end
 

@@ -6902,6 +6902,7 @@ pre, code {
 }
 .container-narrow .jumbotron .lead strong {
   font-weight: 600;
+  color: #c41070;
 }
 .container-narrow .row-fluid {
   margin: 60px 0;
@@ -6919,6 +6920,9 @@ pre, code {
 .container-narrow .row-fluid #me-in-the-web li a:hover,
 .container-narrow .row-fluid #me-in-the-web li a:visited {
   text-decoration: none;
+}
+.container-narrow .row-fluid #me-in-the-web li a:hover {
+  color: #c41070;
 }
 .container-narrow .footer {
   font-size: 76%;

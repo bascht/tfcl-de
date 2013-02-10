@@ -1,5 +1,6 @@
 $baseFontSize: 20px;
 $baseLineHeight: 0.9;
+$pink: #c41070;
 
 @import "compass/reset";
 @import "bootstrap";
@@ -15,7 +16,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Dosis', sans-serif;
   font-weight: 700;
-  color: #c41070;
+  color: $pink;
 }
 
 pre, code {
@@ -47,6 +48,7 @@ pre, code {
 
       strong {
         font-weight: 600;
+        color: $pink;
       }
     }
   }
@@ -67,6 +69,10 @@ pre, code {
         a:hover,
         a:visited {
           text-decoration: none;
+        }
+
+        a:hover {
+          color: $pink;
         }
       }
     }

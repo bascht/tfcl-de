@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -6910,6 +6911,8 @@ pre, code {
 .container-narrow .row-fluid #me-in-the-web {
   margin: auto;
   width: 714px;
+  height: 5em;
+  display: block;
 }
 .container-narrow .row-fluid #me-in-the-web li {
   float: left;
@@ -6927,3 +6930,34 @@ pre, code {
 .container-narrow .footer {
   font-size: 76%;
 }
+
+.icon-github-circled:before {
+  content: '\f09b';
+}
+
+/* '' */
+.icon-magic:before {
+  content: '\f0d0';
+}
+
+/* '' */
+.icon-github:before {
+  content: '\67';
+}
+
+/* 'g' */
+.icon-twitter:before {
+  content: '\54';
+}
+
+/* 'T' */
+.icon-podcast:before {
+  content: '\60';
+}
+
+/* '`' */
+.icon-appnet:before {
+  content: '\e1';
+}
+
+/* 'á' */
